@@ -1,0 +1,9 @@
+# Coloque aqui os frames da animação do hero.
+#
+# Nomeie como frame-0001.webp, frame-0002.webp, ... (zeros à esquerda = pad: 4)
+# Use fundo transparente. Dica para gerar a partir de um vídeo:
+#   ffmpeg -i video.mp4 -vf fps=20 public/hero/frame-%04d.webp
+#
+# Depois, em src/lib/config.ts (CONFIG.heroMedia):
+#   - ajuste frameCount para a quantidade real de frames
+#   - mude enabled para true
