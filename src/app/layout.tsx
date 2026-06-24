@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://joaopaulo-personal.vercel.app"),
+  metadataBase: new URL("https://personal-trainner-murex.vercel.app"),
   title:
     "João Paulo · Personal Trainer | Treino Presencial, Domiciliar e Online",
   description: CONFIG.hero.sub,
